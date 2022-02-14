@@ -22,7 +22,7 @@ body{
     border-bottom: none;
     height: 15%;
 }
-input{
+#email{
     padding: 5px;
 }
 #subscribe-btn{
@@ -202,3 +202,35 @@ input{
     background-color: #E7491D;
     color: white;
 }
+
+@media (max-width: 760px) {
+    .heading {
+      width: 80%;
+      text-align: center;
+      overflow-wrap: break-word;
+    }
+    .subscribe{
+        display: grid;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+  
+    .main,
+    .main-about,
+    .main-services{
+        height: 800px;
+    }
+    .info-wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .main-about,
+    .main-services{
+        display: block;
+    }
+
+    .right-services{
+        margin-top: 15px;
+    }
+  }
